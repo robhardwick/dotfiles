@@ -11,19 +11,22 @@
 .ssh/
 
 # Ignore OS X files and directories
+.CFUserTextEncoding
 .DS_Store
-.Trash/
-Desktop/
-Documents/
-Downloads/
-Dropbox/
-Library/
-Movies/
-Music/
-Pictures/
-Projects/
-Public/
-Sites/
+.trash
+Applications
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Projects
+Public
+Sites
+VirtualBox\ VMs
 
 # Track ssh config
 !.ssh/config
