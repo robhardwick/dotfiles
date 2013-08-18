@@ -1,0 +1,29 @@
+# Ignore standard hidden files and directories
+.bash_history
+.bashrc
+.dropbox/
+.drush/
+.gnupg/
+.lesshst
+.mysql_history
+.pearrc
+.viminfo
+.ssh/
+
+# Ignore OS X files and directories
+.DS_Store
+.Trash/
+Desktop/
+Documents/
+Downloads/
+Dropbox/
+Library/
+Movies/
+Music/
+Pictures/
+Projects/
+Public/
+Sites/
+
+# Track ssh config
+!.ssh/config
