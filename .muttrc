@@ -1,0 +1,21 @@
+set realname = "Rob Hardwick"
+set from = robhardwick@gmail.com
+set use_from = yes
+set envelope_from = yes
+set sendmail = "/usr/bin/msmtp"
+
+set mbox_type = Maildir
+set folder = "~/mail"
+set spoolfile = "~/mail/inbox"
+set record = "~/mail/sent"
+set postponed = "~/mail/draft"
+
+mailboxes `echo -n "+ "; find ~/mail -maxdepth 1 -type d -name "*" -printf "+'%f' "``
+
+set sort = threads
+set sort_browser = date
+set sort_aux = reverse-last-date-received
+
+set editor = "vim -c 'set tw=70 et' '+/^$' "
+
+set smart_wrap
