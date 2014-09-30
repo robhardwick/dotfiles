@@ -1,0 +1,9 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintfull
+Xft.rgba: rgb
+
+URxvt.background: black
+URxvt.foreground: white
+URxvt.scrollBar: false
