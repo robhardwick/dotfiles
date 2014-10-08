@@ -1,0 +1,4 @@
+[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+redshift -l 51.50:0.12 &
+xmobar &
+STARTUP=xmonad
