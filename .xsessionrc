@@ -21,7 +21,6 @@ nm-applet &
 
 # Music
 xmms2-launcher
-xmms2tray &
 
 # Window manager
 STARTUP=xmonad
