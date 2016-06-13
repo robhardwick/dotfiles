@@ -33,5 +33,8 @@ filetype indent on
 set wildmenu
 set wildmode=list:longest
 
+" Remove trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
+
 " Encryption
 set cm=blowfish2
