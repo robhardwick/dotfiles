@@ -32,3 +32,6 @@ filetype indent on
 " Filename completion
 set wildmenu
 set wildmode=list:longest
+
+" Encryption
+set cm=blowfish2
